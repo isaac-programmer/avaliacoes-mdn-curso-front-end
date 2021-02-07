@@ -6,6 +6,10 @@
   .sender-column {
     text-align: right;
   }
+
+  time{
+    display: block;
+  }
   
   h1 {
     font-size: 1.5em;
