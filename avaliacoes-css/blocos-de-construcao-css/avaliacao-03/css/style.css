@@ -1,0 +1,21 @@
+html {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+/* Your CSS below here */
+p {
+    color: springgreen;
+    width: 200px;
+    height: 50px;
+    font-size: 1rem; /* O tamanho da fonte foi calculado com base no valor do font-size definido para o elemento raiz que no caso é o html. 1rem = 1*18px */
+    text-align: center;
+    padding-top: 25px;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    box-shadow: 2px 1px 5px black, inset 2px 2px 5px rgba(255, 255, 255, .9), inset -2px -2px 5px rgba(0, 0, 0, .9);
+    border: 1px solid rgb(2, 32, 17);
+    background-color: springgreen;
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.1) 30%, springgreen);
+}
